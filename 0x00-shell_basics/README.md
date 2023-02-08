@@ -9,3 +9,5 @@ mkdir/tmp/my_first_directory  - a script that creates a directory named my_first
 mv /tmp/betty /tmp/my_first_directory  - Move the file betty from /tmp/ to /tmp/my_first_directory
 rm /tmp/my_first_directory/betty  - delete file named betty
 rm -r/tmp/my_first_directory - delete directory my_first_directory
+cd -  change directory to previous one
+ls -a . ../boot    script that lists all files (even ones with names beginning with a period character, which are normally hidden) in the current directory and the parent of the working directory and the /boot directory (in this order), in long format.
